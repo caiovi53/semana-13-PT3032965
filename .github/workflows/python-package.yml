@@ -19,6 +19,6 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.9
-    - name: Install dependencies
+    - name: Run Unit tests
       run: |
         python testes.py
